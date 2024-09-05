@@ -1,0 +1,310 @@
+(footprint "SOT-563"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT563")
+	(tags "SOT-563")
+	(property "Reference" "Q2"
+		(at 0 -1.7 0)
+		(layer "F.Fab")
+		(uuid "6ec6895e-7b9e-4598-82c1-81d47885d7b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2N7002VC-"
+		(at 0 1.75 0)
+		(layer "F.Fab")
+		(uuid "4ac1c5bd-5db4-4490-a1da-57b9700ead27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "462b1956-da1b-4d6e-a29f-0035639ad828")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05fd37a6-9899-43a8-9427-ac651468151b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0.7A Id, 20V Vds, Dual N-Channel MOSFET, 300mOhm Ron, SC-70-6"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c582b5c4-d577-4ee7-94a8-75445bc17d61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC Basic" "N"
+		(at 164.67 19.46 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01990b82-8576-496f-8ecf-81b7612fbd58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_CORRECTION" "0; 0; 180"
+		(at 164.67 19.46 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1094dee6-f647-40e0-951f-ced448196e2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C504145"
+		(at 164.67 19.46 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08d3cea9-704f-473c-8980-1776b976f9c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN " "2N7002V"
+		(at 164.67 19.46 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2687b0c5-09a3-40c3-9d2b-78860f20e083")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Diodes Incorporated"
+		(at 164.67 19.46 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4abb434-0d7e-4b84-9262-412ac33ad274")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Substitute" "Y"
+		(at 164.67 19.46 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74433f2f-a4cb-43e3-a633-def7e37caf97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.35 -1.1)
+		(end -1.35 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb46bd4d-5d13-46f5-b42c-591ad9bcd4a5")
+	)
+	(fp_line
+		(start -1.35 -1.1)
+		(end 1.35 -1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eaaa9e54-ea6d-425a-a170-d3862467760d")
+	)
+	(fp_line
+		(start 1.35 1.1)
+		(end -1.35 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50c4ce58-1884-4d73-8428-c98bfe60f1d9")
+	)
+	(fp_line
+		(start 1.35 1.1)
+		(end 1.35 -1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15a83d7b-797a-44b5-b403-21933ec850e8")
+	)
+	(fp_line
+		(start -0.9 -0.9)
+		(end 0.65 -0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb839e69-e373-4d4e-84c0-04c32d89ac7d")
+	)
+	(fp_line
+		(start -0.65 -0.5)
+		(end -0.65 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b5d2c82-d9ba-4a73-9aae-b55f2f10b623")
+	)
+	(fp_line
+		(start -0.65 -0.5)
+		(end -0.3 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2247c839-1098-4c98-950c-ece40ce5f674")
+	)
+	(fp_line
+		(start -0.65 0.85)
+		(end 0.65 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbcbb4c0-f110-4e03-8146-5cb63802ed8f")
+	)
+	(fp_line
+		(start 0.65 -0.85)
+		(end -0.3 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bce15ef2-c42f-4bcf-98aa-7dc8251dd02b")
+	)
+	(fp_line
+		(start 0.65 0.85)
+		(end 0.65 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33d5d42a-afc2-43e6-946e-8a8e44a5b3ac")
+	)
+	(fp_line
+		(start 0.65 0.9)
+		(end -0.65 0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f571adf-cef9-4547-b4a9-999945860773")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "bd4a5f40-15e2-4169-b1a0-2c3e752f49d9")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.75 -0.5)
+		(size 0.7 0.34)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.35)
+		(chamfer top_left)
+		(uuid "1d20adc1-c3cf-4c47-beae-160da138c4a6")
+	)
+	(pad "2" smd rect
+		(at -0.75 0)
+		(size 0.7 0.34)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ac851c9f-32df-45b5-9233-b523cac572c2")
+	)
+	(pad "3" smd rect
+		(at -0.75 0.5)
+		(size 0.7 0.34)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "987b37ab-bb88-4b05-b095-b8af7765efc6")
+	)
+	(pad "4" smd rect
+		(at 0.75 0.5)
+		(size 0.7 0.34)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9b66a88f-a125-48d5-a500-73034796df0c")
+	)
+	(pad "5" smd rect
+		(at 0.75 0)
+		(size 0.7 0.34)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e13ea235-c6ac-4307-9514-ee2bea0c6159")
+	)
+	(pad "6" smd rect
+		(at 0.75 -0.5)
+		(size 0.7 0.34)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3bbb6ac6-f76b-4c0e-9d30-bd90218eabf2")
+	)
+	(model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

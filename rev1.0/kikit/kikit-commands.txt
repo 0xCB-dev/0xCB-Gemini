@@ -1,0 +1,5 @@
+Generate panel from PCB:
+docker run -v $(pwd):/kikit yaqwsx/kikit:latest panelize -p ./kikit/frame-2x5.json ./gemini.kicad_pcb ./kikit/panel/gemini-panel.kicad_pcb
+
+Generate production files:
+docker run -v $(pwd):/kikit yaqwsx/kikit:latest fab jlcpcb --no-drc --assembly --schematic ./gemini.kicad_sch ./kikit/panel/gemini-panel.kicad_pcb ./kikit/prod

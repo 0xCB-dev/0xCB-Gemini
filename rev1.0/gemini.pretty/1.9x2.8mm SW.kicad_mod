@@ -1,0 +1,190 @@
+(footprint "1.9x2.8mm SW"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "ST-1194 C589221 1.9x2.8mm")
+	(property "Reference" "SW1"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "507275ed-4b9e-4f30-9de4-1df40a90f43b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SWITCH"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "11626d96-1090-4d4c-8a87-17c695ce78cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "892f21eb-28a8-4c9b-bcbf-c3b235cd8521")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fe73149-32e5-4c8d-84e7-2ecaf579bf66")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Push button switch, generic, two pins"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8d93f3e-7cc6-42f4-8b9e-7dd33148176a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC Basic" "N"
+		(at -29.34 190.98 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1861617-85a8-4587-8b97-eda7c5ef4efe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C589221"
+		(at -29.34 190.98 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73e22393-ef27-4ceb-ac79-44a726a213d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN " "ST-1194"
+		(at -29.34 190.98 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff1522de-39d6-4881-919c-94a2940ef599")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "RI SHENG"
+		(at -29.34 190.98 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "586ca6c8-eebb-4e8e-9042-ad54a9e81022")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Substitute" "N"
+		(at -29.34 190.98 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f7d011c-f339-42df-a344-ebc0b9d5e6c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2 -1)
+		(end 2 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "10b6fa85-e215-4f8c-9cd9-6a28e6b27b31")
+	)
+	(fp_rect
+		(start -0.9 0.5)
+		(end 0.9 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "306058ec-a8b5-4c78-9ee9-506cb3a8703b")
+	)
+	(pad "1" smd roundrect
+		(at -1.35 -0.575)
+		(size 0.7 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f2202289-e62e-4437-990d-2e993fdcc5a4")
+	)
+	(pad "1" smd roundrect
+		(at 1.35 -0.575)
+		(size 0.7 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "00e5a6e5-dfa3-4944-90b7-d93fc7d79ed8")
+	)
+	(pad "2" smd roundrect
+		(at -1.35 0.575)
+		(size 0.7 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "68ab062c-816b-4589-b115-2a84cdf90b89")
+	)
+	(pad "2" smd roundrect
+		(at 1.35 0.575)
+		(size 0.7 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "be640512-5b91-4fb4-b81f-44f8da01e0c0")
+	)
+	(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_0xcb-dev_0xcb-libs/0xcb.3dshapes/PANASONIC_EVPAF7B70.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.9 0.6 0.9)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

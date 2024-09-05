@@ -1,0 +1,276 @@
+(footprint "SOD882D"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "D3"
+		(at 0 -1.25 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2097fda4-60c5-43b8-887c-7c692b999a60")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PMEG2010BELD"
+		(at 0 -1.25 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebc0052c-2457-4086-a990-6d3674d8e320")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01c1de6a-5a9f-4fea-b9a9-0fbac65b1476")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b95be26b-c32c-437f-82c4-a29ce68beb4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Schottky diode"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c86d60b5-8ed6-48de-bed6-9fa880de33a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC Basic" "N"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c123ec9d-0fb3-45a7-95d4-8e18d7fcb718")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_CORRECTION" "0; 0; 180"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20778546-c644-487b-932b-09381e88a996")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C552820"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fdb8a26-a2bb-417c-920a-6f1d6c931b9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN " "PMEG2010BELD,315"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f4a9bcd-26a9-4903-a7c5-e8988199c619")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Nexperia"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af0face8-3eee-4427-84b6-8ba0b2338ab4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Substitute" "N"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2eee20d-18ba-47ba-9c49-0cc1f998feae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_paste_ratio -0.1)
+	(attr smd)
+	(fp_line
+		(start -0.7 -0.45)
+		(end 0.7 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60ae3c9f-e191-43f7-b96b-e0a42eaba254")
+	)
+	(fp_line
+		(start -0.7 0.45)
+		(end -0.7 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c8880cb-2776-4989-a110-f83e0c79a211")
+	)
+	(fp_line
+		(start 0.7 -0.45)
+		(end 0.7 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6465d5c8-0eb3-4ea5-9dbf-f02a12147273")
+	)
+	(fp_line
+		(start 0.7 0.45)
+		(end -0.7 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8461076e-ad5b-4110-9e41-ab4730573e1c")
+	)
+	(fp_line
+		(start -0.5 -0.3)
+		(end 0.5 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71c09d08-b771-4e98-992b-c07f37814be5")
+	)
+	(fp_line
+		(start -0.5 0.3)
+		(end -0.5 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c83a112c-53cc-4e63-b3e6-58322701ff98")
+	)
+	(fp_line
+		(start 0.25 -0.3)
+		(end 0.25 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7860e0e8-b035-4518-ba92-231c5bfaf5e2")
+	)
+	(fp_line
+		(start 0.5 -0.3)
+		(end 0.5 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c5d5c41-75cd-48e2-b94d-ee07b549abfa")
+	)
+	(fp_line
+		(start 0.5 0.3)
+		(end -0.5 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0031104-8238-4a90-bb23-855fd2b44b82")
+	)
+	(fp_circle
+		(center 0.86 -0.28)
+		(end 0.87 -0.28)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "28588f81-7e2b-4818-a62a-dbf0ef7b0c0a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.25 0)
+		(layer "F.Fab")
+		(uuid "5cefd57a-3b6e-43c0-9328-52e58b5861c3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.4 0)
+		(size 0.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d0bcdfa6-bfd1-4785-8988-d5205ca7b28e")
+	)
+	(pad "2" smd roundrect
+		(at -0.4 0)
+		(size 0.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9c7b9955-1373-4142-bdf2-6902525f6947")
+	)
+	(model "${KICAD7_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-923.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)

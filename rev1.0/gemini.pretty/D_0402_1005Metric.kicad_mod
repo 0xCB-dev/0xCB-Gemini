@@ -1,0 +1,273 @@
+(footprint "D_0402_1005Metric"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "diode")
+	(property "Reference" "D2"
+		(at 0 -1.17 180)
+		(layer "F.Fab")
+		(uuid "c158eff7-85e4-499b-8321-d111cdddaccf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "User LED"
+		(at 0 1.17 180)
+		(layer "F.Fab")
+		(uuid "d5e19758-ba73-49ee-aebc-10145071dced")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89486506-2fc5-45e9-9537-9711eb8f9fb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af83b8eb-5fa5-4d2c-8187-9d451a5a352b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Light emitting diode"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff222215-5d0a-423b-b935-36f24767b214")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC Basic" "N"
+		(at -19.69 179.89 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28f1e6ca-27b8-4c3b-89b4-c021c0064f4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C130724"
+		(at -19.69 179.89 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c413234-1c18-40b9-8d4c-bc1689b2e748")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN " "NCD0402B1"
+		(at -19.69 179.89 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0a6713c-c828-46c0-87e9-d295c218d545")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Foshan-NationStar-Optoelectronics"
+		(at -19.69 179.89 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9f83d17-5c35-4ce8-9e93-916ff3ed36ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Substitute" "Y"
+		(at -19.69 179.89 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58d5948f-2689-44c7-af16-10a3c39e2227")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.93 -0.47)
+		(end 0.93 -0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21367af4-46ac-4dd9-b2a5-54f4c5665169")
+	)
+	(fp_line
+		(start -0.93 0.47)
+		(end -0.93 -0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "63956f68-59f0-416c-8e15-18e3180445d6")
+	)
+	(fp_line
+		(start 0.93 -0.47)
+		(end 0.93 0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2155deef-d9b1-47b2-8ec8-d7afb1f12dbe")
+	)
+	(fp_line
+		(start 0.93 0.47)
+		(end -0.93 0.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27fadf5c-e98f-4479-86d7-923002af5464")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c24683a6-02fe-4461-9eb3-6e84cac58325")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c714bc6-9832-4357-b62f-a463558cb926")
+	)
+	(fp_line
+		(start -0.4 0.25)
+		(end -0.4 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "faefe7cc-62e4-4ebb-aa33-504c7d6bce92")
+	)
+	(fp_line
+		(start -0.3 0.25)
+		(end -0.3 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8181048a-abce-4acf-8d02-ab777b7082b8")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0762876a-e541-40e0-915f-513b2340674c")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "727e621c-a7d6-4232-80d9-ab35f7c474c4")
+	)
+	(fp_circle
+		(center -1.09 0)
+		(end -1.04 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0991ab15-7edc-4717-bde9-2bc3d3dac07a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "3a3c375e-30b0-4536-b297-fa758daa982f")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.485 0)
+		(size 0.59 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "604c77b5-11ee-4d5e-b3d0-d0b65fa57e3e")
+	)
+	(pad "2" smd roundrect
+		(at 0.485 0)
+		(size 0.59 0.64)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "7db779a3-72ed-440e-a238-5c03447646f3")
+	)
+	(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_0xcb-dev_0xcb-libs/0xcb.3dshapes/ChipLedWith-Green.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

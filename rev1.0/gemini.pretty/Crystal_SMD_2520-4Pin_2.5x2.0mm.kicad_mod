@@ -1,0 +1,363 @@
+(footprint "Crystal_SMD_2520-4Pin_2.5x2.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal SERIES SMD2520/4 http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf, 2.5x2.0mm^2 package")
+	(tags "SMD SMT crystal")
+	(property "Reference" "Y1"
+		(at 0 -2.2 0)
+		(layer "F.Fab")
+		(uuid "519b52c2-b963-4bee-be12-7d13a3c40e4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "12MHz"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "9a96a247-8aca-4d62-8d82-d96419e9f334")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3483a222-2fa5-4fa2-a26d-d352843dfd0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64a98f7a-a466-4f1d-9e15-07d34abf0eda")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11358849-d955-4ec5-bd9c-8ae16087ddbb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC Basic" "N"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0a85701-b083-41ca-af9d-2888f45bd288")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2149204"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0795cd70-999b-423a-8e05-7bbf3a5887c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC2" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91e20ac7-792e-4bdd-9da0-429dacfb199c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN " "2TJ412000HYGBC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0563e09d-62cb-4724-ade5-ec7758ced0b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN2" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d104384-c202-47da-a4ef-31d58bd2b59d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "JYJE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74afc027-fb00-40ba-a959-583c26c3ecec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer2" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dda23b9c-c771-482e-bb68-bf3d6712a9cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Substitute" "N"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f67dbd50-ece5-4964-8190-bd34eeb2c86a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7 -1.5)
+		(end -1.7 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e3919b7-e275-4338-a1c8-6c0e55f10183")
+	)
+	(fp_line
+		(start -1.7 1.5)
+		(end 1.7 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "25834ff7-9981-42ee-9c54-e275ae72f268")
+	)
+	(fp_line
+		(start 1.7 -1.5)
+		(end -1.7 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5d233ee-04c9-41a6-bbca-4c7857829b7d")
+	)
+	(fp_line
+		(start 1.7 1.5)
+		(end 1.7 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e2e1c13-333c-4d21-a9f4-4c32fb837f2a")
+	)
+	(fp_line
+		(start -1.65 -1.4)
+		(end -1.65 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc76b3f2-52d2-47ba-be12-38e0dd791f98")
+	)
+	(fp_line
+		(start -1.65 1.4)
+		(end 1.65 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d433d4f-49b3-4a44-949e-b86aa225c9fa")
+	)
+	(fp_line
+		(start -1.25 -0.9)
+		(end -1.15 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b93847a-d851-4c93-95f4-b84a09e56180")
+	)
+	(fp_line
+		(start -1.25 0)
+		(end -0.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b32d980f-3ace-4cb1-b6bc-1178edfb0ccf")
+	)
+	(fp_line
+		(start -1.25 0.9)
+		(end -1.25 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81e683f1-2e21-43fa-9f66-89807b697bcc")
+	)
+	(fp_line
+		(start -1.15 -1)
+		(end 1.15 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba930070-46d4-46c9-a434-6dda44fbeadf")
+	)
+	(fp_line
+		(start -1.15 1)
+		(end -1.25 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "331cdb75-8b57-4a7d-bd89-44da6a851802")
+	)
+	(fp_line
+		(start 1.15 -1)
+		(end 1.25 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52e39aa8-9690-4783-9a90-59e61907ef50")
+	)
+	(fp_line
+		(start 1.15 1)
+		(end -1.15 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9bba90f4-2819-4349-afa8-4b3dcb945014")
+	)
+	(fp_line
+		(start 1.25 -0.9)
+		(end 1.25 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a983253-acdf-4084-ba1c-1ed260a19152")
+	)
+	(fp_line
+		(start 1.25 0.9)
+		(end 1.15 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27ed5e6c-7dd6-4d08-b59b-d09afd6caf05")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "59202459-d453-49b1-8d51-2ab298638877")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.875 0.7)
+		(size 1.15 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "5f333ec4-dc40-4657-b7df-4500b5538932")
+	)
+	(pad "2" smd roundrect
+		(at 0.875 0.7)
+		(size 1.15 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "6d9851df-997a-43c9-aaf2-dd289f3e578c")
+	)
+	(pad "3" smd roundrect
+		(at 0.875 -0.7)
+		(size 1.15 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "0cd62dfe-3526-4022-9d9e-1f09c7592d3e")
+	)
+	(pad "4" smd roundrect
+		(at -0.875 -0.7)
+		(size 1.15 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "40983076-637f-4384-b936-37320c740a6a")
+	)
+	(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_0xcb-dev_0xcb-libs/0xcb.3dshapes/2520 SMD Crystal Oscillator.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

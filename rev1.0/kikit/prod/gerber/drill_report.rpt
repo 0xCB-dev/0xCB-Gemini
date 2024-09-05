@@ -1,0 +1,31 @@
+Drill report for gemini-panel.kicad_pcb
+Created on 2024-08-08T21:33:10+0000
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'gemini-panel.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.200mm  0.0079"  (800 holes)
+    T2  0.300mm  0.0118"  (140 holes)
+    T3  0.400mm  0.0157"  (70 holes)
+    T4  0.600mm  0.0236"  (40 holes)  (with 40 slots)
+    T5  0.900mm  0.0354"  (470 holes)
+
+    Total plated holes count 1520
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T6  0.400mm  0.0157"  (304 holes)
+    T7  0.650mm  0.0256"  (20 holes)
+    T8  2.000mm  0.0787"  (3 holes)
+
+    Total unplated holes count 327

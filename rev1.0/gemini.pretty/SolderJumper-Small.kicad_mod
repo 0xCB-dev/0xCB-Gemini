@@ -1,0 +1,124 @@
+(footprint "SolderJumper-Small"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
+	(tags "solder jumper open")
+	(property "Reference" "REF**"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2d856dc9-d208-4833-9630-aba95b597ba1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolderJumper-Small"
+		(at 0 1.9 0)
+		(layer "F.Fab")
+		(uuid "656a70db-01ef-42a7-91d8-cc57681f457d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.125 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17ae3d13-3548-4f30-8a40-b971c302a3de")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.125 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0e7dfd6-8cc1-4c55-bda5-695978b3c026")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.125 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de824fa2-69ad-4520-91b5-f846e8ea5eeb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(pad "1" smd custom
+		(at -0.75 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start 0.125 -0.5)
+						(mid -0.375 0)
+						(end 0.125 0.5)
+					)
+					(xy 1.125 0.5)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "f9992813-a777-4ef5-88e1-8a54438278c6")
+	)
+	(pad "2" smd custom
+		(at 0.75 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -0.125 0.5)
+						(mid 0.375 0)
+						(end -0.125 -0.5)
+					)
+					(xy -1.125 -0.5)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "3de2e92a-8822-43da-8e40-85889ee9afd8")
+	)
+)
