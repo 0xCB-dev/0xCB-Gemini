@@ -23,7 +23,7 @@ The PCBs are assembled at the fab with the production files located in the /kiki
 
 ### Integration in your own design
 
-- Waveshare zero footprint\
+- Waveshare zero footprint
 - more to come
 
 ### PCB
@@ -34,8 +34,8 @@ KiCad 8 stable
 
 ### Pinout
 
-![](https://github.com/0xCB-dev/0xCB-Gemini/blob/main/rev1.0/pinout-top.png)
 ![](https://github.com/0xCB-dev/0xCB-Gemini/blob/main/rev1.0/pinout-bottom.png)
+![](https://github.com/0xCB-dev/0xCB-Gemini/blob/main/rev1.0/pinout-top.png)
 
 | GPIO | F1       | F2        | F3       | F4     | F5  | F6   | F7   | F8           | F9            |
 | ---- | -------- | --------- | -------- | ------ | --- | ---- | ---- | ------------ | ------------- |
