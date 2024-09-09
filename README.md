@@ -6,9 +6,19 @@
 | :----------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
 | ![](https://github.com/0xCB-dev/0xcb-Gemini/blob/main/LICENSE.svg) | [![](https://github.com/0xCB-dev/0xcb-Gemini/blob/main/rev1.0/OSHWA.svg)](https://certification.oshwa.org/TBD.html) |
 
-### Available here
+### Official vendors
 
-[KeebSupply](https://keeb.supply/products/0xcb-gemini)
+Purchasing Gemini from any vendors listed here directly supports our work. Gemini controllers sourced from vendors not listed here and not produced by us will not receive the same level of support and may have varying degrees of quality.
+
+### EU:
+
+Germany: [KeebSupply](https://keeb.supply/products/0xcb-gemini)
+
+Germany: [Keycapsss](https://keycapsss.com/keyboard-parts/mcu-controller/277/0xcb-gemini-waveshare-rp2040-zero-compatible-microcontroller)
+
+### North America:
+
+America: Ringer Keys (Coming soon!)
 
 #### Flashing
 
