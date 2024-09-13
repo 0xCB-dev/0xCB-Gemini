@@ -4,7 +4,7 @@
 
 |                              Licence                               |                                                      OSHWA                                                       |
 | :----------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
-| ![](https://github.com/0xCB-dev/0xcb-Gemini/blob/main/LICENSE.svg) | [![](https://github.com/0xCB-dev/0xcb-Gemini/blob/main/rev1.0/OSHWA.svg)](https://certification.oshwa.org/TBD.html) |
+| ![](https://raw.githubusercontent.com/0xCB-dev/0xCB-Gemini/main/LICENSE.svg) | [![](https://github.com/0xCB-dev/0xcb-Gemini/blob/main/rev1.0/OSHWA.svg)](https://certification.oshwa.org/de000147.html) |
 
 ### Official vendors
 
